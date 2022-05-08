@@ -23,6 +23,23 @@ const WelcomeStyle = styled.section`
       padding-top: 5vh;
     }
   }
+  @media only screen and (max-width: 768px) {
+    display: inline-block;
+    .welcomeLeft {
+      width: 100vw;
+    }
+    .welcomeRight {
+      width: 100vw;
+      padding: 1vh 2vw;
+      article {
+        text-align: center;
+        h1,
+        h2 {
+          padding-bottom: 1.5vh;
+        }
+      }
+    }
+  }
 `;
 const Welcome = () => {
   return (

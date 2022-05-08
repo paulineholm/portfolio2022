@@ -81,6 +81,11 @@ const RecentProjects = () => {
           clickable: true,
           type: "bullets",
         }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+          },
+        }}
       >
         {projects.slice(0, 4).map((project) => (
           <SwiperSlide>

@@ -61,6 +61,22 @@ const ProjectStyles = styled.main`
       margin: 1vh 1vw;
     }
   }
+  @media only screen and (max-width: 768px) {
+    article:first-child {
+      text-align: center;
+      letter-spacing: 2px;
+      h1 {
+        line-height: 2;
+        font-size: 1.75rem;
+      }
+      padding-left: 3vw;
+      padding-right: 3vw;
+    }
+    section {
+      width: 90vw;
+      margin: 3vh 5vw;
+    }
+  }
 `;
 const Project = () => {
   const { id } = useParams();

@@ -58,12 +58,27 @@ const ProjectMasonryStyle = styled.main`
       padding: 5px;
     }
   }
+  @media only screen and (max-width: 768px) {
+    .overlayContainer {
+      margin: 4.5vh 0.7vw;
+      img {
+        border-radius: 10px;
+        width: 100vw;
+      }
+    }
+  }
 `;
+const breakpointColumnsObj = {
+  default: 4,
+  1100: 3,
+  700: 2,
+  500: 1,
+};
 const ProjectsMasonry = () => {
   return (
     <ProjectMasonryStyle>
       <Masonry
-        breakpointCols={4}
+        breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >

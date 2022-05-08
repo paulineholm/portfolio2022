@@ -29,6 +29,12 @@ const NavStyles = styled.nav`
       color: var(--teal);
     }
   }
+  @media only screen and (max-width: 768px) {
+    width: 100vw;
+    .navRight {
+      display: none;
+    }
+  }
 `;
 const NavMenu = () => {
   return (
