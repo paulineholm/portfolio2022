@@ -8,7 +8,7 @@ const WelcomeStyle = styled.section`
   padding: 8vh 4vw;
   .welcomeLeft {
     width: 53vw;
-    padding: 4vh 9vw;
+    padding: 1vh 5vw 5vh 5vw;
     img {
       border: 5px solid var(--teal);
       border-radius: 50%;
@@ -27,17 +27,22 @@ const WelcomeStyle = styled.section`
   @media only screen and (max-width: 768px) {
     display: inline-block;
     .welcomeLeft {
-      width: 100vw;
+      width: 95vw;
     }
     .welcomeRight {
-      width: 100vw;
+      width: 95vw;
       padding: 1vh 2vw;
       article {
         text-align: center;
         h1,
         h2 {
           padding-bottom: 1.5vh;
+          font-size: 1rem;
         }
+      }
+      .btnflex {
+        display: flex;
+        justify-content: center;
       }
     }
   }

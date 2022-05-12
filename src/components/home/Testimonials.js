@@ -10,6 +10,7 @@ const TestimonialsStyle = styled.section`
   height: 38vh;
   padding: 4vh 15vw;
   text-align: center;
+
   article {
     line-height: 1.7;
     p {
@@ -18,12 +19,12 @@ const TestimonialsStyle = styled.section`
     a {
       color: var(--usafa-blue);
       line-height: 3;
+      :hover {
+        color: var(--shimmering-blush);
+      }
       svg {
         margin: -2px 7px;
         font-size: 0.85rem;
-        :hover {
-          color: var(--shimmering-blush);
-        }
       }
     }
   }
@@ -31,6 +32,7 @@ const TestimonialsStyle = styled.section`
     height: 60vh;
   }
 `;
+
 const Testimonials = () => {
   return (
     <TestimonialsStyle>

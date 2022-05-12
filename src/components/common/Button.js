@@ -4,7 +4,6 @@ const BtnStyle = styled.div`
   cursor: grab;
   padding: 1.5vh 2.5vw;
   margin-right: 2vw;
-
   border: 2px solid
     ${(props) =>
       props.cherry
@@ -32,7 +31,7 @@ const BtnStyle = styled.div`
     color: black;
   }
   @media only screen and (max-width: 768px) {
-    width: 50vw;
+    width: 40vw;
     text-align: center;
   }
 `;

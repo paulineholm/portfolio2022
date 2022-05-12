@@ -32,6 +32,20 @@ const ContactStyles = styled.main`
       }
     }
   }
+  @media only screen and (max-width: 768px) {
+    img {
+      display: none;
+    }
+    div {
+      padding: 25vh 4vw;
+      width: 100vw;
+    }
+    .links {
+      font-weight: 500;
+      letter-spacing: 1.7px;
+      }
+    }
+  }
 `;
 const Contact = () => {
   return (

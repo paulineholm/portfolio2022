@@ -62,13 +62,11 @@ const Intro = () => {
             <br />
             <br />
             I have a background in the restaurant industry, 8 years - all from
-            dishwashing, making drinks and running the floor. Educated Bachelor
+            dishwashing, making drinks to running the floor. Educated Bachelor
             in Innovation and Entrepreneurship with a supplementary vocational
             education in Web development- corona decision, and i love it so much
             now 👩🏻‍💻❤️!
             <br />
-            <br />
-            Originally from Poland, based in Denmark since 2016.
           </p>
           <h3>Scroll down to get to know me better</h3>
           <Link to="/projects">or see my works</Link>
