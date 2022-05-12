@@ -37,13 +37,13 @@ const BtnStyle = styled.div`
   }
 `;
 const Button = ({
-  text = "text",
-  path = "path",
+  text,
+  path,
   cherry = false,
   teal = false,
   blue = false,
-  txt = "txt",
-  href = "href",
+  txt,
+  href,
 }) => {
   return (
     <motion.div
