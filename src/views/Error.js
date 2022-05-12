@@ -1,5 +1,5 @@
 const Error = () => {
-  return <main>Error</main>;
+  return <p>Error side</p>;
 };
 
 export default Error;

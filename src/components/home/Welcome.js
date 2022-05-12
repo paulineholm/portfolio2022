@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Pauline from "../../assets/img/paulineholm485x485.png";
 import Button from "../common/Button";
+import { motion } from "framer-motion";
 const WelcomeStyle = styled.section`
   display: flex;
   width: 100vw;
@@ -44,11 +45,16 @@ const WelcomeStyle = styled.section`
 const Welcome = () => {
   return (
     <WelcomeStyle>
-      <div className="welcomeLeft">
+      <motion.div
+        className="welcomeLeft"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.9, type: "ease" }}
+      >
         <div>
           <img src={Pauline} alt="Pauline Holm profile" />
         </div>
-      </div>
+      </motion.div>
       <div className="welcomeRight">
         <article>
           <h1>Hej, my name is Pauline 🙋🏻‍♀️</h1>
@@ -56,7 +62,7 @@ const Welcome = () => {
           <h3>and it is really nice to see you on my website!</h3>
         </article>
         <div className="btnflex">
-          <Button text="resume" />
+          <Button text="resume" path="https://pholmresume.tiiny.site" />
           <Button text="projects" path="/projects" cherry />
         </div>
       </div>

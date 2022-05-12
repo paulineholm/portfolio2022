@@ -6,7 +6,7 @@ import SectionHead from "./SectionHead";
 import testimonials from "../../assets/data/testimonials";
 const TestimonialsStyle = styled.section`
   width: 100vw;
-  height: 30vh;
+  height: 38vh;
   padding: 4vh 15vw;
   text-align: center;
   article {

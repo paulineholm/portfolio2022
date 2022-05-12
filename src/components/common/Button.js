@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 const BtnStyle = styled.div`
   cursor: grab;
   padding: 1.5vh 2.5vw;
@@ -44,9 +44,15 @@ const Button = ({
   blue = false,
 }) => {
   return (
-    <BtnStyle cherry={cherry} teal={teal} blue={blue}>
-      <Link to={path}>{text}</Link>
-    </BtnStyle>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.5, type: "ease" }}
+    >
+      <BtnStyle cherry={cherry} teal={teal} blue={blue}>
+        <a href={path}>{text}</a>
+      </BtnStyle>
+    </motion.div>
   );
 };
 
