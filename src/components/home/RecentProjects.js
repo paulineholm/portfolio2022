@@ -76,14 +76,14 @@ const RecentProjects = () => {
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 5000, pauseOnMouseEnter: true }}
         spaceBetween={0}
-        slidesPerView={3}
+        slidesPerView={1}
         pagination={{
           clickable: true,
           type: "bullets",
         }}
         breakpoints={{
           320: {
-            slidesPerView: 1,
+            slidesPerView: 3,
           },
         }}
       >
