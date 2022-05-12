@@ -16,16 +16,13 @@ const FunFacts = () => {
           life I applied to chef-school 👩🏻‍🍳
         </p>
         <p>
-          • Love learning new languages, and I have a talent for that! Would
-          love to learn Swedish and Hebrew or Arabic in the future ✍️
+          • Love and talent for learning new languages! Swedish, Hebrew or
+          Arabic are on the list ✍️
         </p>
+        <p>• I have an interest for UI/UX and digital marketing 🖥</p>
         <p>
-          • I have an interest for UI/UX and digital marketing, that I am
-          developing and working on 🖥
-        </p>
-        <p>
-          • Have an interest in sustainability (many aspects, "small steps" is
-          my motto, that I follow in life) 🌿
+          • Have an interest in sustainability and I implement it on everyday
+          basis as "small steps" 🌿
         </p>
       </article>
     </FunFactsStyle>

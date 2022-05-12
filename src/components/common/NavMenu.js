@@ -22,8 +22,9 @@ const NavStyles = styled.nav`
     text-align: end;
     a {
       color: var(--cherry-blossom-pink);
-      letter-spacing: 0.05rem;
+      letter-spacing: 0.07rem;
       padding: 0rem 2.5rem;
+      text-transform: uppercase;
     }
     .active {
       color: var(--teal);

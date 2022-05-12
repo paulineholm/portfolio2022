@@ -4,9 +4,10 @@ const PersonalityStyle = styled.section`
   display: flex;
   flex-direction: column;
   img {
-    width: 40vw;
+    width: 50vw;
     margin-left: 30vw;
     margin-right: 30vw;
+    padding: 6vh 4vw;
   }
 `;
 const Personality = () => {

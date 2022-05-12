@@ -10,6 +10,9 @@ const ShortAboutStyle = styled.section`
   font-size: 1.3rem;
   a {
     color: var(--shimmering-blush);
+    :hover {
+      color: white;
+    }
   }
 `;
 const ShortAbout = () => {

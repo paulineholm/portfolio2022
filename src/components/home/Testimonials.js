@@ -4,6 +4,7 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 import SectionHead from "./SectionHead";
 import testimonials from "../../assets/data/testimonials";
+import { FaLinkedinIn } from "react-icons/fa";
 const TestimonialsStyle = styled.section`
   width: 100vw;
   height: 38vh;
@@ -17,6 +18,13 @@ const TestimonialsStyle = styled.section`
     a {
       color: var(--usafa-blue);
       line-height: 3;
+      svg {
+        margin: -2px 7px;
+        font-size: 0.85rem;
+        :hover {
+          color: var(--shimmering-blush);
+        }
+      }
     }
   }
   @media only screen and (max-width: 768px) {
@@ -37,7 +45,10 @@ const Testimonials = () => {
           <SwiperSlide key={testimonial.id}>
             <article>
               <p>{testimonial.text}</p>
-              <a href={testimonial.linkedin}>{testimonial.name}</a>
+              <a href={testimonial.linkedin}>
+                <FaLinkedinIn />
+                {testimonial.name}
+              </a>
             </article>
           </SwiperSlide>
         ))}
