@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 const BtnStyle = styled.div`
   cursor: grab;
   padding: 1.5vh 2.5vw;
@@ -37,13 +36,11 @@ const BtnStyle = styled.div`
   }
 `;
 const Button = ({
-  text,
-  path,
+  text = "text",
+  path = "path",
   cherry = false,
   teal = false,
   blue = false,
-  txt,
-  href,
 }) => {
   return (
     <motion.div
@@ -52,8 +49,7 @@ const Button = ({
       transition={{ duration: 1.5, type: "ease" }}
     >
       <BtnStyle cherry={cherry} teal={teal} blue={blue}>
-        <a href={href}>{text}</a>
-        <Link to={path}>{txt}</Link>
+        <a href={path}>{text}</a>
       </BtnStyle>
     </motion.div>
   );
