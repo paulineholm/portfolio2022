@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-const BtnStyle = styled.div`
+const BtnStyle = styled.button`
   cursor: grab;
   padding: 1.5vh 2.5vw;
   margin-right: 2vw;
@@ -14,6 +14,7 @@ const BtnStyle = styled.div`
         ? "var(--usafa-blue)"
         : "var(--shimmering-blush)"};
   border-radius: 15px;
+  background: var(--baby-powder);
   :hover {
     background: ${(props) =>
       props.cherry
@@ -23,9 +24,6 @@ const BtnStyle = styled.div`
         : props.blue
         ? "var(--teal)"
         : "var(--cherry-blossom-pink)"};
-    a {
-      color: white;
-    }
   }
   a {
     color: black;
@@ -48,9 +46,11 @@ const Button = ({
       animate={{ opacity: 1 }}
       transition={{ duration: 1.5, type: "ease" }}
     >
-      <BtnStyle cherry={cherry} teal={teal} blue={blue}>
-        <a href={path}>{text}</a>
-      </BtnStyle>
+      <a href={path}>
+        <BtnStyle cherry={cherry} teal={teal} blue={blue}>
+          {text}
+        </BtnStyle>
+      </a>
     </motion.div>
   );
 };

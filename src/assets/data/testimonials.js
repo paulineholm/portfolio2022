@@ -11,6 +11,12 @@ const testimonials = [
     text: "An 'open-minded' person, strong, skilled and dedicated, especially when it comes to social interaction and motivation. With an outgoing personality, Pauline can very easily take the best out of any situation she finds herself in.",
     linkedin: "https://www.linkedin.com/in/cristina-sevcenco-b10760152/",
   },
+  {
+    id: 3,
+    name: "Carsten Lund",
+    text: "(...) Pauline arbejder systematisk, og har en god evne til at bryde den store, komplekse opgave ned i overskuelige delmål, uden at miste det overordnede mål af syne. Det er mit klare indtryk at dette gælder både for udvikleren og mennesket Pauline. Jeg kan give Pauline min varmeste anbefaling.",
+    linkedin: "https://www.linkedin.com/in/carsten-j-lund/",
+  },
 ];
 
 export default testimonials;

@@ -67,7 +67,10 @@ const Welcome = () => {
           <h3>and it is really nice to see you on my website!</h3>
         </article>
         <div className="btnflex">
-          <Button text="resume" path="https://pholmresume.tiiny.site" />
+          <Button
+            text="resume"
+            path="https://drive.google.com/file/d/16T2_1vQLReuqni9_ghEalk2pfmaTrI0e/view?usp=sharing"
+          />
           <Button text="projects" path="/projects" cherry />
         </div>
       </div>
