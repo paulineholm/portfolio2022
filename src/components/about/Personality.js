@@ -18,6 +18,15 @@ const PersonalityStyle = styled.section`
       padding: 4.5vh 1.5vw;
     }
   }
+  @media only screen and (min-width: 768px) {
+    //tablet
+    img {
+      width: 65vw;
+      margin-left: 17.5vw;
+      margin-right: 17.5vw;
+      padding: 4.5vh 1.5vw;
+    }
+  }
 `;
 const Personality = () => {
   return (

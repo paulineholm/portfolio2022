@@ -60,8 +60,8 @@ const ProjectStyles = styled.main`
       margin: 1vh 0.5vw;
     }
   }
-  @media only screen and (max-width: 768px) {
-    //mobile
+  @media only screen and (max-width: 1000px) {
+    //mobile&tablet
     article:first-child {
       text-align: center;
       letter-spacing: 2px;
@@ -84,6 +84,18 @@ const ProjectStyles = styled.main`
         height: 45vh;
         border-radius: 15px;
         margin: 1.5vh 1vw;
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    //tablet adjustments
+    .mockups {
+      margin: 5vh 17.5vw;
+      img {
+        width: 65vw;
+        height: 45vh;
+        border-radius: 15px;
+        margin: 1.5vh 0.5vw;
       }
     }
   }

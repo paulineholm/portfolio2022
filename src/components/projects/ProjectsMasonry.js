@@ -10,7 +10,6 @@ const ProjectMasonryStyle = styled.main`
   }
   .my-masonry-grid_column {
     background-clip: padding-box;
-    margin-right: 0.4vw;
   }
   .overlayContainer {
     position: relative;
@@ -68,11 +67,24 @@ const ProjectMasonryStyle = styled.main`
       }
     }
   }
+  @media only screen and (max-width: 1100px) {
+    //tablet
+    .overlayContainer {
+      margin: 4vh 1vw;
+      img {
+        border-radius: 10px;
+        width: 90vw;
+      }
+    }
+    .my-masonry-grid {
+      padding: 2vh 2vw;
+      display: flex;
+    }
+  }
 `;
 const breakpointColumnsObj = {
   default: 4,
-  1100: 3,
-  700: 2,
+  1100: 2,
   500: 1,
 };
 const ProjectsMasonry = () => {

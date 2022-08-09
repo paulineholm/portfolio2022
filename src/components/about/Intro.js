@@ -45,6 +45,16 @@ const IntroStyle = styled.section`
       display: none;
     }
   }
+  @media only screen and (min-width: 768px) {
+    //tablet
+    height: 65vh;
+    article {
+      padding: 8vh 8vw;
+    }
+    img {
+      display: none;
+    }
+  }
 `;
 const Intro = () => {
   return (
