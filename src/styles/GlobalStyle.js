@@ -73,7 +73,7 @@ const GlobalStyles = createGlobalStyle`
     --shimmering-blush: #FFA5AB;
     --teal: #2F9D99;
     --baby-powder:#FDFFF7;
-    /* Origin 
+    /* Origin
     --usafa-blue: #004E98;
     --cherry-blossom-pink: #FBAEC0;
     --shimmering-blush: #DB8592;

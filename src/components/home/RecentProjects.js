@@ -67,6 +67,8 @@ const RecentProjectStyle = styled.section`
       padding: 5px;
     }
   }
+  @media only screen and (max-width: 768px) {
+  }
 `;
 const RecentProjects = () => {
   return (
@@ -82,8 +84,14 @@ const RecentProjects = () => {
           type: "bullets",
         }}
         breakpoints={{
-          320: {
+          1200: {
             slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          370: {
+            slidesPerView: 1,
           },
         }}
       >

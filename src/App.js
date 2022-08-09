@@ -23,7 +23,6 @@ function App() {
   return (
     <div className="App">
       {resViewport ? <BurgerMenu /> : <NavMenu />}
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

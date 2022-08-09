@@ -31,7 +31,7 @@ const TimeLineStyle = styled.section`
     margin-top:4rem;
     font-weight:300;
     font-size:1rem;
-    font-family:"Lora";
+    font-family:"Roboto Light";
   }
   }
   p{
@@ -42,6 +42,12 @@ const TimeLineStyle = styled.section`
       :hover{
         color:var(--cherry-blossom-pink);
       }
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .divMobile{
+      padding: 2.5rem;
+      font-family:"Roboto Light";
     }
   }
 `;
@@ -63,10 +69,12 @@ const TimeLine = () => {
       title: "2022: * exciting to see what comes here next *",
     },
   ];
-  const [mobileViewport, setMobileViewport] = useState(window.innerWidth < 768);
+  const [mobileViewport, setMobileViewport] = useState(
+    window.innerWidth < 1200
+  );
   //console.log(mobileViewport);
   const updateViewport = () => {
-    setMobileViewport(window.innerWidth < 768);
+    setMobileViewport(window.innerWidth < 1200);
   };
   useEffect(() => {
     window.addEventListener("resize", updateViewport);
@@ -75,15 +83,11 @@ const TimeLine = () => {
   return (
     <TimeLineStyle>
       {mobileViewport ? (
-        <Chrono
-          items={items}
-          theme={{
-            primary: "var(--cherry-blossom-pink)",
-            secondary: "none",
-            titleColor: "none",
-          }}
-          mode="VERTICAL"
-        />
+        <div className="divMobile">
+          {items?.map((item) => (
+            <p>{item.title}</p>
+          ))}
+        </div>
       ) : (
         <Chrono
           items={items}

@@ -5,10 +5,9 @@ import { AiOutlineClose } from "react-icons/ai";
 const BurgerStyles = styled.nav`
   width: 100vw;
   height: 10vh;
-  position: sticky;
   top: 0;
   background: var(--baby-powder);
-  z-index: 2;
+  z-index: 1;
   /*   -webkit-box-shadow: 1px -9px 18px 3px rgba(193, 193, 193, 0.64);
   box-shadow: 1px -9px 18px 3px rgba(193, 193, 193, 0.64); */
   -webkit-box-shadow: 1px -13px 18px 3px rgba(219, 133, 146, 0.64);
@@ -19,6 +18,12 @@ const BurgerStyles = styled.nav`
     width: 2.5rem;
     right: 1.5rem;
     top: 1.5rem;
+    background: var(--baby-powder);
+  }
+  .bm-cross-button {
+    color: var(--cherry-blossom-pink);
+    position: fixed;
+    width: 5rem;
   }
   .bm-item-list {
     text-align: center;
@@ -33,6 +38,11 @@ const BurgerStyles = styled.nav`
     color: var(--cherry-blossom-pink);
     padding-top: 1.75rem;
     font-size: 2rem;
+  }
+  .menu-item {
+    :hover {
+      color: var(--shimmering-blush);
+    }
   }
 `;
 const BurgerMenu = () => {
