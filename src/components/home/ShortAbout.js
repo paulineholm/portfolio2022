@@ -16,7 +16,7 @@ const ShortAboutStyle = styled.section`
   }
   @media only screen and (min-width: 768px) {
     //tablet
-    padding: 3.75vh 5.5vw;
+    padding: 4vh 5.5vw;
   }
 `;
 const ShortAbout = () => {

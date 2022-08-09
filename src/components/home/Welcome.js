@@ -50,7 +50,7 @@ const WelcomeStyle = styled.section`
   @media only screen and (min-width: 768px) {
     //tablet
     .welcomeRight {
-      padding: 1vh 1vw;
+      padding: 1vh 3vw;
       article {
         h1,
         h2,
