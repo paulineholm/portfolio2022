@@ -32,7 +32,8 @@ const ContactStyles = styled.main`
       }
     }
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 820px) {
+    //mobile&tablet
     img {
       display: none;
     }

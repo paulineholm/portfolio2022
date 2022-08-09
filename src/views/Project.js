@@ -61,6 +61,7 @@ const ProjectStyles = styled.main`
     }
   }
   @media only screen and (max-width: 768px) {
+    //mobile
     article:first-child {
       text-align: center;
       letter-spacing: 2px;

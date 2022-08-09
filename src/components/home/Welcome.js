@@ -25,6 +25,7 @@ const WelcomeStyle = styled.section`
     }
   }
   @media only screen and (max-width: 768px) {
+    //mobile
     display: inline-block;
     .welcomeLeft {
       width: 95vw;

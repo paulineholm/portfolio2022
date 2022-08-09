@@ -10,6 +10,7 @@ const PersonalityStyle = styled.section`
     padding: 6vh 4vw;
   }
   @media only screen and (max-width: 768px) {
+    //mobile
     img {
       width: 70vw;
       margin-left: 15vw;

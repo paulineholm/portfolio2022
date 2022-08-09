@@ -5,6 +5,7 @@ const StoryStyle = styled.section`
   text-align: center;
   padding: 0.5vh 4vw 4.5vh;
   @media only screen and (max-width: 768px) {
+    //mobile&tablet
     iframe {
       width: 75vw;
     }

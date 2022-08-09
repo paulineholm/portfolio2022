@@ -7,6 +7,7 @@ const FunFactsStyle = styled.section`
   line-height: 2.3;
   letter-spacing: 1px;
   @media only screen and (max-width: 768px) {
+    //mobile
     line-height: 2;
     p {
       padding-bottom: 1rem;

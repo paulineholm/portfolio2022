@@ -45,6 +45,7 @@ const TimeLineStyle = styled.section`
     }
   }
   @media only screen and (max-width: 1200px) {
+    //mobile&tablet
     .divMobile{
       padding: 2.5rem;
       font-family:"Roboto Light";
@@ -73,6 +74,7 @@ const TimeLine = () => {
     window.innerWidth < 1200
   );
   //console.log(mobileViewport);
+  //mobile&tablet
   const updateViewport = () => {
     setMobileViewport(window.innerWidth < 1200);
   };

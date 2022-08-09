@@ -59,6 +59,7 @@ const ProjectMasonryStyle = styled.main`
     }
   }
   @media only screen and (max-width: 768px) {
+    //mobile
     .overlayContainer {
       margin: 4.5vh 0.7vw;
       img {

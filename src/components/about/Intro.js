@@ -36,6 +36,7 @@ const IntroStyle = styled.section`
     }
   }
   @media only screen and (max-width: 768px) {
+    //mobile
     height: 125vh;
     article {
       padding: 8vh 8vw;
