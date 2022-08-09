@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Chrono } from "react-chrono";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 const TimeLineStyle = styled.section`
   background: var(--shimmering-blush);
   width: 100vw;
@@ -73,8 +72,6 @@ const TimeLine = () => {
     window.addEventListener("resize", updateViewport);
     return () => window.removeEventListener("resize", updateViewport);
   }, []);
-
-  console.log(mobileViewport);
   return (
     <TimeLineStyle>
       {mobileViewport ? (
