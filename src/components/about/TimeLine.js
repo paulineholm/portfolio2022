@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { Chrono } from "react-chrono";
+import { useState } from "react";
+import { useEffect } from "react";
 const TimeLineStyle = styled.section`
   background: var(--shimmering-blush);
   width: 100vw;
@@ -62,17 +64,41 @@ const TimeLine = () => {
       title: "2022: * exciting to see what comes here next *",
     },
   ];
+  const [mobileViewport, setMobileViewport] = useState(window.innerWidth < 768);
+  //console.log(mobileViewport);
+  const updateViewport = () => {
+    setMobileViewport(window.innerWidth < 768);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", updateViewport);
+    return () => window.removeEventListener("resize", updateViewport);
+  }, []);
+
+  console.log(mobileViewport);
   return (
     <TimeLineStyle>
-      <Chrono
-        items={items}
-        theme={{
-          primary: "var(--cherry-blossom-pink)",
-          secondary: "none",
-          titleColor: "none",
-        }}
-        mode="HORIZONTAL"
-      />
+      {mobileViewport ? (
+        <Chrono
+          items={items}
+          theme={{
+            primary: "var(--cherry-blossom-pink)",
+            secondary: "none",
+            titleColor: "none",
+          }}
+          mode="VERTICAL"
+        />
+      ) : (
+        <Chrono
+          items={items}
+          theme={{
+            primary: "var(--cherry-blossom-pink)",
+            secondary: "none",
+            titleColor: "none",
+          }}
+          mode="HORIZONTAL"
+        />
+      )}
+
       <p>
         Curious? see my{" "}
         <a href="https://www.linkedin.com/in/paulineholm/">LinkedIn</a> for more

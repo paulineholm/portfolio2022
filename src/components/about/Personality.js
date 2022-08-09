@@ -9,6 +9,14 @@ const PersonalityStyle = styled.section`
     margin-right: 30vw;
     padding: 6vh 4vw;
   }
+  @media only screen and (max-width: 768px) {
+    img {
+      width: 70vw;
+      margin-left: 15vw;
+      margin-right: 15vw;
+      padding: 4.5vh 1.5vw;
+    }
+  }
 `;
 const Personality = () => {
   return (

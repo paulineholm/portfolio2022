@@ -3,7 +3,6 @@ import projects from "../assets/data/projects";
 import { useParams } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
-
 const ProjectStyles = styled.main`
   width: 100vw;
   padding: 4vh 0vw;
@@ -56,9 +55,9 @@ const ProjectStyles = styled.main`
     margin: 7vh 10vw;
     img {
       width: 30vw;
-      height: 45vh;
+      height: 50vh;
       border-radius: 15px;
-      margin: 1vh 1vw;
+      margin: 1vh 0.5vw;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -75,6 +74,15 @@ const ProjectStyles = styled.main`
     section {
       width: 90vw;
       margin: 3vh 5vw;
+    }
+    .mockups {
+      display: block;
+      img {
+        width: 90vw;
+        height: 45vh;
+        border-radius: 15px;
+        margin: 1vh 1vw;
+      }
     }
   }
 `;

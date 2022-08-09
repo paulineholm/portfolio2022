@@ -4,6 +4,11 @@ const StoryStyle = styled.section`
   width: 100vw;
   text-align: center;
   padding: 0.5vh 4vw 4.5vh;
+  @media only screen and (max-width: 768px) {
+    iframe {
+      width: 75vw;
+    }
+  }
 `;
 const Story = () => {
   return (

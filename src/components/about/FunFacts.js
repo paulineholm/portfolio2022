@@ -6,13 +6,19 @@ const FunFactsStyle = styled.section`
   text-align: center;
   line-height: 2.3;
   letter-spacing: 1px;
+  @media only screen and (max-width: 768px) {
+    line-height: 2;
+    p {
+      padding-bottom: 1rem;
+    }
+  }
 `;
 const FunFacts = () => {
   return (
     <FunFactsStyle>
       <article>
         <p>
-          • I love making food, and I am quite good at it! At some point of my
+          • I am a huge foodie, who also loves to make food! At some point of my
           life I applied to chef-school 👩🏻‍🍳
         </p>
         <p>

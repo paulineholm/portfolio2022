@@ -35,6 +35,15 @@ const IntroStyle = styled.section`
       }
     }
   }
+  @media only screen and (max-width: 768px) {
+    height: 125vh;
+    article {
+      padding: 8vh 8vw;
+    }
+    img {
+      display: none;
+    }
+  }
 `;
 const Intro = () => {
   return (
