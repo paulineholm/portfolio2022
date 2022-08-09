@@ -14,6 +14,10 @@ const ShortAboutStyle = styled.section`
       color: white;
     }
   }
+  @media only screen and (min-width: 768px) {
+    //tablet
+    padding: 3.75vh 5.5vw;
+  }
 `;
 const ShortAbout = () => {
   return (

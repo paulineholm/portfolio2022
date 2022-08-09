@@ -67,7 +67,9 @@ const RecentProjectStyle = styled.section`
       padding: 5px;
     }
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
+    //tablet
+    padding: 2vh 2vw;
   }
 `;
 const RecentProjects = () => {

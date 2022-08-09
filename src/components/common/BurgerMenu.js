@@ -19,6 +19,7 @@ const BurgerStyles = styled.nav`
     right: 1.5rem;
     top: 1.5rem;
     background: var(--baby-powder);
+    border-radius: 7.5px;
   }
   .bm-cross-button {
     color: var(--cherry-blossom-pink);

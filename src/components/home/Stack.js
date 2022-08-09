@@ -18,6 +18,11 @@ const StackStyle = styled.section`
   svg {
     margin: 0 1.5rem;
   }
+  @media only screen and (min-width: 768px) {
+    //tablet
+    font-size: 2.5rem;
+    padding: 2.75vh 4vw;
+  }
 `;
 const Stack = () => {
   return (

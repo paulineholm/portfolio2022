@@ -32,6 +32,11 @@ const TestimonialsStyle = styled.section`
     //mobile&tablet
     height: 60vh;
   }
+  @media only screen and (min-width: 768px) {
+    //tablet
+    padding: 2vh 2vw;
+    height: 30vh;
+  }
 `;
 
 const Testimonials = () => {

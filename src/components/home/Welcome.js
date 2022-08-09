@@ -47,6 +47,25 @@ const WelcomeStyle = styled.section`
       }
     }
   }
+  @media only screen and (min-width: 768px) {
+    //tablet
+    .welcomeRight {
+      padding: 1vh 1vw;
+      article {
+        h1,
+        h2,
+        h3 {
+          padding-bottom: 0.5rem;
+        }
+        h2 {
+          font-size: 1.25rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 `;
 const Welcome = () => {
   return (
