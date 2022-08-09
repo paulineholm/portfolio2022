@@ -77,11 +77,12 @@ const ProjectStyles = styled.main`
     }
     .mockups {
       display: block;
+      margin: 5vh 4.5vw;
       img {
         width: 90vw;
         height: 45vh;
         border-radius: 15px;
-        margin: 1vh 1vw;
+        margin: 1.5vh 1vw;
       }
     }
   }
