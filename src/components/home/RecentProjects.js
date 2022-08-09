@@ -67,7 +67,7 @@ const RecentProjectStyle = styled.section`
       padding: 5px;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     padding: 2vh 2vw;
   }

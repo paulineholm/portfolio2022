@@ -13,7 +13,7 @@ const FunFactsStyle = styled.section`
       padding-bottom: 1rem;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     padding: 3.5vh 2vw;
     line-height: 2.5;

@@ -18,7 +18,7 @@ const PersonalityStyle = styled.section`
       padding: 4.5vh 1.5vw;
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     img {
       width: 65vw;

@@ -18,7 +18,7 @@ const StackStyle = styled.section`
   svg {
     margin: 0 1.5rem;
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     font-size: 2.5rem;
     padding: 3vh 4vw;

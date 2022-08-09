@@ -47,7 +47,7 @@ const WelcomeStyle = styled.section`
       }
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     .welcomeRight {
       padding: 1vh 3vw;

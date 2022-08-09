@@ -78,7 +78,7 @@ const ProjectStyles = styled.main`
     }
     .mockups {
       display: block;
-      margin: 5vh 4.5vw;
+      margin: 5vh 5vw;
       img {
         width: 90vw;
         height: 45vh;
@@ -87,7 +87,7 @@ const ProjectStyles = styled.main`
       }
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet adjustments
     .mockups {
       margin: 5vh 17.5vw;
