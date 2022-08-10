@@ -96,7 +96,8 @@ const TimeLine = () => {
           theme={{
             primary: "var(--cherry-blossom-pink)",
             secondary: "none",
-            titleColor: "none",
+            titleColor: "var(--baby-powder)",
+            titleColorActive: "var(--baby-powder)",
           }}
           mode="HORIZONTAL"
         />

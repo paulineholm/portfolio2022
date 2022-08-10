@@ -60,7 +60,7 @@ const ProjectMasonryStyle = styled.main`
   @media only screen and (max-width: 768px) {
     //mobile
     .overlayContainer {
-      margin: 4.5vh 0.7vw;
+      margin: 4.5vh 2vw;
       img {
         border-radius: 10px;
         width: 100vw;
@@ -70,7 +70,7 @@ const ProjectMasonryStyle = styled.main`
   @media only screen and (max-width: 1100px) {
     //tablet
     .overlayContainer {
-      margin: 4vh 1vw;
+      margin: 2vh 3vw;
       img {
         border-radius: 10px;
         width: 90vw;

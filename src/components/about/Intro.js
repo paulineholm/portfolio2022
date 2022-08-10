@@ -8,8 +8,8 @@ const IntroStyle = styled.section`
   width: 100vw;
   height: 90vh;
   article {
-    padding: 10vh 10vw;
-    line-height: 1.5;
+    padding: 5vh 7.5vw;
+    line-height: 1.5ß;
     h1 {
       font-family: "Lora Regular";
       text-transform: uppercase;
@@ -37,7 +37,7 @@ const IntroStyle = styled.section`
   }
   @media only screen and (max-width: 768px) {
     //mobile
-    height: 125vh;
+    height: 140vh;
     article {
       padding: 8vh 8vw;
     }
@@ -47,7 +47,7 @@ const IntroStyle = styled.section`
   }
   @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
-    height: 65vh;
+    height: 67.5vh;
     article {
       padding: 8vh 8vw;
     }
