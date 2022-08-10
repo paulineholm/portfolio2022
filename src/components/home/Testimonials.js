@@ -30,12 +30,12 @@ const TestimonialsStyle = styled.section`
   }
   @media only screen and (max-width: 768px) {
     //mobile&tablet
-    height: 60vh;
+    height: 65vh;
   }
   @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     padding: 2vh 2vw;
-    height: 30vh;
+    height: 35vh;
   }
 `;
 
