@@ -67,9 +67,24 @@ const RecentProjectStyle = styled.section`
       padding: 5px;
     }
   }
+  @media only screen and (max-width: 768px) {
+    //mobile
+    .overlayContainer {
+      img {
+        width: 85vw;
+        margin-left: 4vw;
+      }
+    }
+  }
   @media only screen and (min-width: 768px) and (max-width: 1100px) {
     //tablet
     padding: 2vh 2vw;
+    .overlayContainer {
+      img {
+        width: 40vw;
+        margin-left: 3vw;
+      }
+    }
   }
 `;
 const RecentProjects = () => {
@@ -86,14 +101,17 @@ const RecentProjects = () => {
           type: "bullets",
         }}
         breakpoints={{
-          1200: {
-            slidesPerView: 3,
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 100,
           },
           768: {
             slidesPerView: 2,
+            spaceBetween: 40,
           },
-          370: {
-            slidesPerView: 1,
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
           },
         }}
       >
