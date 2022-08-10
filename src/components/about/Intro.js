@@ -76,17 +76,20 @@ const Intro = () => {
             <br />
             I am a T-shaped individual - specialised in web development (React),
             but I can also many other different things. I am very adaptive to
-            the new environments, and always open for meeting new people. I am
-            very helpful, smiling and supportive. Besides, I thrive being
-            challenged and love learning new things and systems.
+            the new environments, and always open for meeting new people. As a
+            person I am very helpful, smiling and supportive. Besides, I thrive
+            being challenged and love learning new things and systems.
             <br />
             <br />
-            I have a background in the restaurant industry, 8 years - all from
-            dishwashing, making drinks to running the floor. Educated Bachelor
-            in Innovation and Entrepreneurship with a supplementary vocational
-            education in Web development- corona decision, and i love it so much
-            now 👩🏻‍💻❤️!
+            I have a years-long background in the restaurant industry - all from
+            dishwashing, making drinks to running the floor. Soon to be studying
+            my masters in IT, learning and organisational change! I also have a
+            supplementary vocational education in Web development in my pocket -
+            corona decision, and i love it so much now 👩🏻‍💻❤️!
             <br />
+            <br />
+            Daily working as a waiter and freelance translator, always looking
+            for new opportunities!
           </p>
           <h3>Scroll down to get to know me better</h3>
           <Link to="/projects">or see my works</Link>

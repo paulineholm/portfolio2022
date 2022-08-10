@@ -28,8 +28,8 @@ const FunFacts = () => {
           life I applied to chef-school 👩🏻‍🍳
         </p>
         <p>
-          • Love and talent for learning new languages! Swedish, Hebrew or
-          Arabic are on the list ✍️
+          • Passion and talent for learning new languages! Swedish, Norwegian
+          and Hebrew are on the list ✍️
         </p>
         <p>• I have an interest for UI/UX and digital marketing 🖥</p>
         <p>

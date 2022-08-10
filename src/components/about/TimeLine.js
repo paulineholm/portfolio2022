@@ -55,19 +55,19 @@ const TimeLineStyle = styled.section`
 const TimeLine = () => {
   const items = [
     {
-      title: "May 2016: High-school graduation",
+      title: "May 2016: High-school graduation 🎓",
     },
     {
-      title: "June 2016: Moving to Denmark",
+      title: "June 2016: Moving to Denmark 🇩🇰",
     },
     {
-      title: "January 2020: PBA in Innovation and Entrepreneurship",
+      title: "January 2020: PBA in Innovation and Entrepreneurship 💼",
     },
     {
-      title: "March 2022: Educated as Web developer",
+      title: "March 2022: Educated as Web developer 👩‍💻",
     },
     {
-      title: "2022: * exciting to see what comes here next *",
+      title: "2022: Masters in IT, learning and organisational change 👩‍🏫",
     },
   ];
   const [mobileViewport, setMobileViewport] = useState(
