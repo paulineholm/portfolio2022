@@ -37,7 +37,7 @@ const IntroStyle = styled.section`
   }
   @media only screen and (max-width: 768px) {
     //mobile
-    height: 140vh;
+    height: 150vh;
     article {
       padding: 8vh 8vw;
     }
@@ -45,12 +45,19 @@ const IntroStyle = styled.section`
       display: none;
     }
   }
-  @media only screen and (min-width: 768px) and (max-width: 1100px) {
+  @media only screen and (min-width: 768px) and (max-width: 900px) {
     //tablet
     height: 67.5vh;
     article {
       padding: 8vh 8vw;
     }
+    img {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 900px) and (max-width: 1100px) {
+    //tablet horizontal
+    height: 77.5vh;
     img {
       display: none;
     }

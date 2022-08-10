@@ -47,7 +47,7 @@ const WelcomeStyle = styled.section`
       }
     }
   }
-  @media only screen and (min-width: 768px) and (max-width: 1100px) {
+  @media only screen and (min-width: 768px) and (max-width: 900px) {
     //tablet
     .welcomeRight {
       padding: 1vh 3vw;
@@ -64,6 +64,12 @@ const WelcomeStyle = styled.section`
           font-size: 1rem;
         }
       }
+    }
+  }
+  @media only screen and (min-width: 900px) and (max-width: 1100px) {
+    //tablet horizontal
+    .welcomeRight {
+      padding: 6vh 2vw;
     }
   }
 `;

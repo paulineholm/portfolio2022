@@ -87,7 +87,7 @@ const ProjectStyles = styled.main`
       }
     }
   }
-  @media only screen and (min-width: 768px) and (max-width: 1100px) {
+  @media only screen and (min-width: 768px) and (max-width: 900px) {
     //tablet adjustments
     .mockups {
       margin: 5vh 17.5vw;
@@ -96,6 +96,16 @@ const ProjectStyles = styled.main`
         height: 45vh;
         border-radius: 15px;
         margin: 1.5vh 0.5vw;
+      }
+    }
+  }
+  @media only screen and (min-width: 900px) and (max-width: 1100px) {
+    //tablet horizontally
+    .mockups {
+      margin: 5vh 1vw;
+      img {
+        width: 60vw;
+        height: 40vh;
       }
     }
   }

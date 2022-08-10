@@ -67,10 +67,10 @@ const ProjectMasonryStyle = styled.main`
       }
     }
   }
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 900px) {
     //tablet
     .overlayContainer {
-      margin: 2vh 3vw;
+      margin: 1vh 1vw;
       img {
         border-radius: 10px;
         width: 90vw;
@@ -81,10 +81,25 @@ const ProjectMasonryStyle = styled.main`
       display: flex;
     }
   }
+  @media only screen and (min-width: 900px) and (max-width: 1100px) {
+    //tablet horizontally
+    .overlayContainer {
+      margin: 1vh 1vw;
+      img {
+        border-radius: 10px;
+        width: 45vw;
+      }
+    }
+    .my-masonry-grid {
+      padding: 2vh 2vw;
+      display: flex;
+    }
+  }
 `;
 const breakpointColumnsObj = {
   default: 4,
-  1100: 2,
+  1100: 3,
+  900: 2,
   500: 1,
 };
 const ProjectsMasonry = () => {

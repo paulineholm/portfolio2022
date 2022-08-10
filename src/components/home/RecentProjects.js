@@ -69,6 +69,10 @@ const RecentProjectStyle = styled.section`
   }
   @media only screen and (max-width: 768px) {
     //mobile
+    .overlay {
+      width: 85vw;
+      margin-left: 4vw;
+    }
     .overlayContainer {
       img {
         width: 85vw;
@@ -76,7 +80,7 @@ const RecentProjectStyle = styled.section`
       }
     }
   }
-  @media only screen and (min-width: 768px) and (max-width: 1100px) {
+  @media only screen and (min-width: 768px) and (max-width: 900px) {
     //tablet
     padding: 2vh 2vw;
     .overlayContainer {
@@ -84,6 +88,24 @@ const RecentProjectStyle = styled.section`
         width: 40vw;
         margin-left: 3vw;
       }
+    }
+    .overlay {
+      width: 40vw;
+      margin-left: 3vw;
+    }
+  }
+  @media only screen and (min-width: 900px) and (max-width: 1100px) {
+    //tablet horizontal
+    padding: 2vh 2vw;
+    .overlayContainer {
+      img {
+        width: 25vw;
+        margin-left: 2vw;
+      }
+    }
+    .overlay {
+      width: 25vw;
+      margin-left: 2vw;
     }
   }
 `;
