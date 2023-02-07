@@ -29,17 +29,17 @@ const FunFacts = () => {
     <FunFactsStyle>
       <article>
         <p>
-          • I am a huge foodie, who also loves to make food! At some point of my
-          life I applied to chef-school 👩🏻‍🍳
+          • Huge foodie, who also loves to make food! At some point of my life I
+          applied to chef-school 👩🏻‍🍳
         </p>
         <p>
-          • Passion and talent for learning new languages! Swedish, Norwegian
-          and Hebrew are on the list ✍️
+          • A very lingo-talented person! Swedish, Norwegian and Hebrew are on
+          the list ✍️
         </p>
-        <p>• I have an interest for UI/UX and digital marketing 🖥</p>
-        <p>• I have a diploma in Cyber Security 🔐</p>
+        <p>• An interest for UI/UX and digital marketing 🖥</p>
+        <p>• A diploma in Cyber Security 🔐</p>
         <p>
-          • Have an interest in sustainability and I implement it on everyday
+          • An interest for sustainability and implementation of it on everyday
           basis as "small steps" 🌿
         </p>
       </article>

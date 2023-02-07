@@ -6,7 +6,12 @@ import {
   FaGulp,
   FaSass,
 } from "react-icons/fa";
-import { SiStyledcomponents, SiReactrouter, SiGatsby } from "react-icons/si";
+import {
+  SiStyledcomponents,
+  SiReactrouter,
+  SiGatsby,
+  SiFigma,
+} from "react-icons/si";
 import { GiWomanElfFace } from "react-icons/gi";
 import CPHNightClub from "../img/CPHNightClub.png";
 import CPHNightClub1 from "../img/mockupcphnightclub/nightclub1.png";
@@ -48,6 +53,10 @@ import Tefer1 from "../img/mockupgatsby/tefer1.png";
 import Tefer2 from "../img/mockupgatsby/tefer2.png";
 import Tefer3 from "../img/mockupgatsby/tefer3.png";
 import TeferMix from "../img/mockupgatsby/tefermix.png";
+import Mapcy from "../img/mockupmapcy/mapcy.png";
+import Mapcy1 from "../img/mockupmapcy/mapcy1.png";
+import Mapcy2 from "../img/mockupmapcy/mapcy2.png";
+import Mapcy3 from "../img/mockupmapcy/mapcy3.png";
 const projects = [
   {
     id: 1,
@@ -149,6 +158,19 @@ const projects = [
     img: GatsbyAndStyle,
     mockups: [Tefer1, Tefer2, Tefer3],
     headimg: TeferMix,
+  },
+  {
+    id: 9,
+    name: "Mapcy",
+    head: "Mapcy - Sustainable Tourist Guide (school project)",
+    desc: "Mock-up for a school project, where we were asked to improve an existing concept of Mapcy. Based on conducted research, we have decided to add 'Fun facts' and 'Green events', which have met a positive feedback from our Stakeholder Oana.",
+    stack: [<SiFigma />],
+    link: "#",
+    github: "#",
+    date: "October 2022",
+    img: Mapcy,
+    mockups: [Mapcy3, Mapcy2, Mapcy1],
+    headimg: Mapcy,
   },
 ];
 

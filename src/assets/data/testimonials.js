@@ -17,6 +17,12 @@ const testimonials = [
     text: "(...) Pauline arbejder systematisk, og har en god evne til at bryde den store, komplekse opgave ned i overskuelige delmål, uden at miste det overordnede mål af syne. Det er mit klare indtryk at dette gælder både for udvikleren og mennesket Pauline. Jeg kan give Pauline min varmeste anbefaling.",
     linkedin: "https://www.linkedin.com/in/carsten-j-lund/",
   },
+  {
+    id: 4,
+    name: "Emily Bendiksen",
+    text: "(...) From the moment she joined our team, it was clear she was a true asset - being a newly formed role, she not only expertly filled it, but also shaped it with processes and ideas for the future...",
+    linkedin: "https://www.linkedin.com/in/emily-bendiksen/",
+  },
 ];
 
 export default testimonials;

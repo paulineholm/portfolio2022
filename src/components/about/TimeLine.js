@@ -69,6 +69,9 @@ const TimeLine = () => {
     {
       title: "2022: Masters in IT, learning and organisational change 👩‍🏫",
     },
+    {
+      title: "2023: Student Frontend Developer at DFDS 👩‍🏫",
+    },
   ];
   const [mobileViewport, setMobileViewport] = useState(
     window.innerWidth < 1200
